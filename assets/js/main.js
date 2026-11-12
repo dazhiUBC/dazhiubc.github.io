@@ -292,7 +292,7 @@
 				var $this = $(this);
 
 				// Close.
-					$('<div class="close">Close</div>')
+					$('<button type="button" class="close" aria-label="Close section">Close</button>')
 						.appendTo($this)
 						.on('click', function() {
 							location.hash = '';
